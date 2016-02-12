@@ -38,7 +38,7 @@
           </div>
         </div>
         <br>
-        <?php if (empty($error)): ?>
+        <?php if (isset($convertedValue)): ?>
         <div class="row">
           <div class="col-md-5">
             <div class="panel panel-success">
